@@ -10,7 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-
     <title>LAURA SUSANO</title>
 </head>
 
@@ -22,7 +21,8 @@
         <p class="text-light mb-0 p-2 fs-6">Compra Online Con La Mayor Disponibilidad De Producto.</p>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+    <nav class="navbar navbar-expand-lg navbar-light p-3 bg-light" id="menu" style="position: sticky;
+    top: 0; z-index: 1;">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <span class="fs-3 text-black fw-bold" ><i>SPECIALIZED</i></span>
@@ -106,23 +106,27 @@
     <!--ALGUNOS PRODUCTOS-->
 
     <section class="w-100">
-        <div class="row w-75 mx-auto" id="servicios-fila-1">
-            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="img/torch.jpg" alt="desarrollo" width="250" height="220">
-                <div>
-                    <h6 class="fs-4 mt-4 px-4 pb-1">S-WORKS TORCH</h6>
-                    <p class="px-4">Diseñadas para Desaparecer<br><hr><p class="px-4">En Tus Pies y Del Pelotón</p></p>
+        <div class="row mx-auto" id="servicios-fila-1">
+
+            <div class="col-lg-1 col-md-3 col-sm-2"></div>
+
+            <div class="col-lg-5 col-md-8 col-sm-8 d-flex justify-content-start my-5 icono-wrap">
+                <img src="img/torch.jpg" alt="desarrollo" width="220" height="220">
+                <div class="ps-3">
+                    <h6 class="fs-3 mt-1 px-2 fw-bold">S-WORKS TORCH</h6>
+                    <p class="px-1">Diseñadas para Desaparecer<br><hr><p class="px-4">En Tus Pies y Del Pelotón</p></p>
                     <form class="px-2">
                         <button class="btn btn-danger px-4" type="button">Compra aquí</button>
                     </form>
                 </div>
             </div>
+            <div class="col-lg-1 col-md-3 col-sm-2"></div>
 
-            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="img/camber.jpg" alt="desarrollo" width="250" height="220">
-                <div>
-                    <h6 class="fs-4 mt-4 px-4 pb-1">CASCO CAMBER</h6>
-                    <p class="px-4">El Placer de Rodar<br><hr><p class="px-4">Comodidad y protección</p></p>
+            <div class="col-lg-5 col-md-8 col-sm-8 d-flex justify-content-start my-5 icono-wrap">
+                <img src="img/camber.jpg" alt="desarrollo" width="220" height="220">
+                <div class="ps-3">
+                    <h6 class="fs-3 mt-1 fw-bold">CASCO CAMBER</h6>
+                    <p>El Placer de Rodar<br><hr><p>Comodidad y protección</p></p>
                     <form class="px-2">
                         <button class="btn btn-danger px-4" type="button">Compra aquí</button>
                     </form>
@@ -130,22 +134,28 @@
             </div>
         </div>
 
-        <div class="row w-75 mx-auto" id="servicios-fila-2">
-            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="img/butter.jpg" alt="desarrollo" width="250" height="220">
-                <div>
-                    <h6 class="fs-4 mt-4 px-4 pb-1">COLECCIÓN GRAVITY BUTTER</h6>
-                    <p class="px-4">Rápido Y Suave<br><hr><p class="px-4">Como Mantequilla</p></p>
-                    <form class="px-2">
+        <div class="row w-100 mx-auto" id="servicios-fila-2">
+
+            <div class="col-lg-1 col-md-3 col-sm-2"></div>
+
+            <div class="col-lg-5 col-md-8 col-sm-8 d-flex justify-content-start my-5 icono-wrap">
+                <img src="img/butter.jpg" alt="desarrollo" width="220" height="220">
+                <div class="ps-3">
+                    <h6 class="fs-3 mt-1 fw-bold">COLECCIÓN GRAVITY BUTTER</h6>
+                    <p>Rápido Y Suave
+                        <br><hr>
+                    <p>Como Mantequilla</p>
+                    <form>
                         <button class="btn btn-danger px-4" type="button">Compra aquí</button>
                     </form>
                 </div>
             </div>
+            <div class="col-lg-1 col-md-3 col-sm-2"></div>
 
-            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <div class="col-lg-5 col-md-8 col-sm-8 d-flex justify-content-start my-5 icono-wrap">
                 <img src="img/bike.jpg" alt="desarrollo" width="250" height="220">
                 <div>
-                    <h6 class="fs-4 mt-4 px-4 pb-1">MTB EPIC PRO 29</h6>
+                    <h6 class="fs-3 mt-1 fw-bold">MTB EPIC PRO 29</h6>
                     <p class="px-4">El Placer de Rodar<br><hr><p class="px-4">Diseño, comodidad y rapidez</p></p>
                     <form class="px-2">
                         <button class="btn btn-danger px-4" type="button">Compra aquí</button>
@@ -156,93 +166,90 @@
     </section>
 
     <!-- SECCION ACERCA DE NOSOTROS-->
-
     <section>
-        <div class="container w-60 m-auto text-center" id="equipo">
-            <h1 class="mb-5 fs-2">Specialized Bicycle Components.</h1>
-            <p class="fs-4 "> Somos un distribuidores de bicicletas y componentes de ciclismo, la oficina central está situada en Morgan Hill, California, Estados Unidos de América. Hoy en día mantiene talla Internacional, con distribuidoras en casi todo el mundo.</p>
+        <div class="container w-75 m-auto text-center" id="equipo">
+            <h1 class="mb-5 fs-1 fw-bold">Specialized Bicycle Components.</h1>
+            <p class="fs-5"> Somos un distribuidores de bicicletas y componentes de ciclismo, la oficina central está situada en Morgan Hill, California, Estados Unidos de América. Hoy en día mantiene talla Internacional, con distribuidoras en casi todo el mundo.</p>
+        </div>
+        <div class="mt-5 text-center w-75 m-auto">
+            <img id="img-equipo" src="img/collage.jpeg" alt="equipo" width="100%" class="my-2">
         </div>
 
-        <div class="mt-5 text-center">
-            <img id="img-equipo" src="img/collage.jpeg" alt="equipo" width="450" class="my-2">
-        </div>
-
-        <div id="local" class="border-top border-2 m-5">
-            <div>
-                <div class="wrapper-local w-75 mx-auto">
-                    <h2>Ubicado en Bucaramanga, Santander</h2>
+        <!-- SECCION UBICACION-->
+        <div id="local row" class="row border-top border-2 m-5">
+            <div class="col-2"></div>
+                <div class="col w-75 mx-auto mt-5">
+                    <h2>📍 Ubicado en Bucaramanga, Santander</h2>
                     <h2 class="text-danger mb-4" id="typewriter"></h2>
-                    <p class="fs-5 text-body">Abirmos una de nuestras oficinas con el objetivo de estar cerca a
+                    <p class="fs-5 text-body">Abrimos una de nuestras oficinas con el objetivo de estar cerca a
                         nuestros clientes. Estamos ubicados cerca al parque Turbay, el corazon y el centro financiero de Bucaramanga,
                         cerca de los mejores restaurantes y tiendas. ¡Visitennos y no
                         se arrepentiran!</p>
-                    <section class="d-flex justify-content-start" id="numeros-local">
-                        <div>
-                            <p class="text-danger fs-5">200</p>
+                    <section class="d-flex" id="numeros-local">
+                        <div class="m-3">
+                            <p class="text-danger fs-5 text-center">200</p>
                             <p>Dias de Sol</p>
                         </div>
-                        <div>
-                            <p class="text-danger fs-5">100%</p>
+                        <div class="m-3">
+                            <p class="text-danger fs-5 text-center">100%</p>
                             <p>Aprobado</p>
                         </div>
-                        <div>
-                            <p class="text-danger fs-5">23 °C</p>
+                        <div class="m-3">
+                            <p class="text-danger fs-5 text-center">23 °C</p>
                             <p>Temperatura</p>
                         </div>
                     </section>
                 </div>
-            </div>
+            <div class="col-2"></div>
         </div>
 
     </section>
 
         <!-- CONTENEDOR DEL FORMULARIO -->
-        <div class="container border-top border-danger w-75" id="contenedor-formulario">
-            <div class="text-center mb-4" id="titulo-formulario">
-                <div><img src="img/logo_specialized.png" alt="" class="img-fluid ps-6"></div>
-                <h2>Contactanos</h2>
-                <p class="fs-5">Estamos aquí para que encuentres la bicicleta de tus sueños</p>
+        <div class="container border-top border-danger" id="contenedor-formulario">
+            <div class="row">
+                <div class="col-4">.</div>
+                <div class="col-4 tarjeta my-5 w-75 m-auto">
+                    <div class="row d-flex justify-content-center">
+                        <div class="text-center mb-4 w-" id="titulo-formulario">
+                            <img src="img/logo_specialized.png" alt="" class="img-fluid ps-6">
+                        </div>
+                        <h2 class="fw-bold">Contactanos</h2>
+                        <p>Estamos aquí para que encuentres la bicicleta de tus sueños</p>
+                    </div>
+                
+                    <form method="POST" data-netlify="true" action="#">
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="mb-3">
+                            <input type="input" class="form-control" id="name" name="name" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" name="message" id="message" rows="4" placeholder="Mensaje"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class=" btn btn-danger w-100">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-
-
-            <form method="POST" data-netlify="true" action="#">
-                <div class="mb-3">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
-                </div>
-
-
-                <div class="mb-3">
-                    <input type="input" class="form-control" id="name" name="name" placeholder="Nombre">
-                </div>
-
-
-                <div class="mb-3">
-                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
-                </div>
-
-                <div class="mb-3">
-                    <textarea class="form-control" name="message" id="message" rows="4" placeholder="Mensaje"></textarea>
-                </div>
-
-                <div class="mb-3">
-                    <button type="submit" class=" btn btn-danger w-100 fs-5">Enviar Mensaje</button>
-                </div>
-            </form>
         </div>
 
     <!--FOOTER-->
-
-
     <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap bg-dark">
-        <p class="fs-5 px-3  pt-3 text-light">Specialized Bicycle Components. All Rights Reserved.</p>
+        <p class="px-3 pt-3 text-light">Specialized Bicycle Components. All Rights Reserved.</p>
         <div id="iconos">
-            <a href="https://es-la.facebook.com/SpecializedColombia/" target="_blank"><i class="bi bi-facebook text-light"></i></a>
-            <a href="https://twitter.com/iamspecialized?lang=es" target="_blank"><i class="bi bi-twitter text-light"></i></a>
-            <a href="https://www.instagram.com/specialized_co/?hl=es" target="_blank"><i class="bi bi-instagram text-light"></i></a>
+            <a class="p-1" href="https://es-la.facebook.com/SpecializedColombia/" target="_blank"><i class="bi bi-facebook text-light"></i></a>
+            <a class="p-1" href="https://twitter.com/iamspecialized?lang=es" target="_blank"><i class="bi bi-twitter text-light"></i></a>
+            <a class="p-1" href="https://www.instagram.com/specialized_co/?hl=es" target="_blank"><i class="bi bi-instagram text-light"></i></a>
         </div>
     </footer>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
